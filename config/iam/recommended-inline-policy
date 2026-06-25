@@ -1,0 +1,18 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"lambda:CreateNetworkConnector",
+				"lambda:UpdateNetworkConnector",
+				"lambda:DeleteNetworkConnector",
+				"lambda:GetNetworkConnector",
+				"lambda:UntagResource",
+				"lambda:TagResource",
+				"lambda:ListTags"
+			],
+			"Resource": "*"
+		}
+	]
+}
